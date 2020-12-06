@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="cofcs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="load()">
+<div class="header">
+  <div class="info">
+  <div id="Home" onclick="window.location.reload()" onmouseover = "big(this)" onmouseout = "small(this)">Home</div>
+    <a href="aboutus.html">
+  <div id="About_Us" onclick="change(this)" onmouseover = "big(this)" onmouseout = "small(this)">About Us</div>
+    </a>
+  <div id="Menu" onclick="change(this)" onmouseover = "big(this)" onmouseout = "small(this)">Menu</div>
+
+      <a href="loginpage.html">
+        <button id="bu">Sign in</button>
+      </a>
+
+
+
+<div class="profile">
+  <div class="user_profile">
+    <img id="profile_img" src="avatar.png" alt="">
+    <p id="user_name">Almas</p>
+  </div>
+</div>
+
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+
+
+    <input type="checkbox" name="" id="toggle">
+
+    <div class="popup">
+      <div class="popup-content">
+        <img onclick="close_popup()" class="closed" src="closedd.png" alt="" width="10%">
+        <p id="mark">Log In</p>
+        <input id="username" type="text" name="username" placeholder="Username">
+        <input type="password" id="pass"  name="pass" placeholder="Password">
+        <button id="butt" onclick="login(username.value)" class="btn btn-outline-dark">Log In</button>
+      </div>
+    </div>
+
+</div>
+
+  <div class="main">
+    <img id="img" src="capp1.png" alt="coffee" width="1000px" height="1000px">
+    <div class="text">
+      <h1 id="text1">MOBILE COFFEE</h1>
+      <p id="Capp"><q>We create this company in 2020.</q> Our coffees you can see in <cite>Almaty</cite>, <cite>Oskemen</cite>, <cite>Taraz</cite> cities.<br></br><br>The area of a bottle coffee is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</br><samp><br></p>
+    </div>
+  </div>
+
+  <div class="logo">
+    <img id="logos" src="logoo.png" alt="logo" width="1000px" height="1000px">
+  </div>
+</div>
+
+</div>
+<div class="third">
+  <img id = "tf" src="cof1.jpg" alt="second" width="500px" height="300px">
+    <img id = "ts" src="oo.jpeg" alt="c" width="900px" height="900px">
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
